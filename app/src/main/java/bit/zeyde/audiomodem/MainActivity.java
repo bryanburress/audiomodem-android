@@ -5,8 +5,11 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.app.ActionBarActivity;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,9 +17,11 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
+import android.widget.SpinnerAdapter;
 import android.widget.Toast;
 
-public class MainActivity extends ActionBarActivity {
+
+public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "Main";
     private EditText editText = null;
@@ -154,5 +159,231 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    public void setCustomView(View view) {
+
+    }
+
+
+    public void setCustomView(View view, ActionBar.LayoutParams layoutParams) {
+
+    }
+
+
+    public void setCustomView(int resId) {
+
+    }
+
+
+    public void setIcon(int resId) {
+
+    }
+
+
+    public void setIcon(Drawable icon) {
+
+    }
+
+
+    public void setLogo(int resId) {
+
+    }
+
+
+    public void setLogo(Drawable logo) {
+
+    }
+
+
+    public void setListNavigationCallbacks(SpinnerAdapter adapter, ActionBar.OnNavigationListener callback) {
+
+    }
+
+
+    public void setSelectedNavigationItem(int position) {
+
+    }
+
+
+    public int getSelectedNavigationIndex() {
+        return 0;
+    }
+
+    public int getNavigationItemCount() {
+        return 0;
+    }
+
+    @Override
+    public void setTitle(CharSequence title) {
+
+    }
+
+    @Override
+    public void setTitle(int resId) {
+
+    }
+
+
+    public void setSubtitle(CharSequence subtitle) {
+
+    }
+
+
+    public void setSubtitle(int resId) {
+
+    }
+
+    public void setDisplayOptions(int options) {
+
+    }
+
+
+    public void setDisplayOptions(int options, int mask) {
+
+    }
+
+
+    public void setDisplayUseLogoEnabled(boolean useLogo) {
+
+    }
+
+
+    public void setDisplayShowHomeEnabled(boolean showHome) {
+
+    }
+
+
+    public void setDisplayHomeAsUpEnabled(boolean showHomeAsUp) {
+
+    }
+
+
+    public void setDisplayShowTitleEnabled(boolean showTitle) {
+
+    }
+
+
+    public void setDisplayShowCustomEnabled(boolean showCustom) {
+
+    }
+
+
+    public void setBackgroundDrawable(@Nullable Drawable d) {
+
+    }
+
+
+    public View getCustomView() {
+        return null;
+    }
+
+
+
+    public CharSequence getSubtitle() {
+        return null;
+    }
+
+
+    public int getNavigationMode() {
+        return 0;
+    }
+
+
+    public void setNavigationMode(int mode) {
+
+    }
+
+
+    public int getDisplayOptions() {
+        return 0;
+    }
+
+
+    public ActionBar.Tab newTab() {
+        return null;
+    }
+
+    public void addTab(ActionBar.Tab tab) {
+
+    }
+
+
+    public void addTab(ActionBar.Tab tab, boolean setSelected) {
+
+    }
+
+
+    public void addTab(ActionBar.Tab tab, int position) {
+
+    }
+
+
+    public void addTab(ActionBar.Tab tab, int position, boolean setSelected) {
+
+    }
+
+
+    public void removeTab(ActionBar.Tab tab) {
+
+    }
+
+    public void removeTabAt(int position) {
+
+    }
+
+
+    public void removeAllTabs() {
+
+    }
+
+
+    public void selectTab(ActionBar.Tab tab) {
+
+    }
+
+
+    public ActionBar.Tab getSelectedTab() {
+        return null;
+    }
+
+
+    public ActionBar.Tab getTabAt(int index) {
+        return null;
+    }
+
+    public int getTabCount() {
+        return 0;
+    }
+
+
+    public int getHeight() {
+        return 0;
+    }
+
+
+    public void show() {
+
+    }
+
+
+    public void hide() {
+
+    }
+
+
+    public boolean isShowing() {
+        return false;
+    }
+
+
+    public void addOnMenuVisibilityListener(ActionBar.OnMenuVisibilityListener listener) {
+
+    }
+
+
+    public void removeOnMenuVisibilityListener(ActionBar.OnMenuVisibilityListener listener) {
+
     }
 }
